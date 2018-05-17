@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(7.jpg) no-repeat center center fixed;
+    background: url(Website-Background.png) no-repeat center center fixed;
     background-size: cover;
     font-family: Helvetica, sans-serif;
 }
@@ -147,9 +147,20 @@ header {
   padding-right: 20px;
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.relative {
+  position: relative;
+}
+
 .header {
   display: inline;
 }
+
 
 header li {
 margin: 10px;

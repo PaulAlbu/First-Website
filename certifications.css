@@ -1,0 +1,92 @@
+body {
+    background-color: pink;
+    /*background: url(certifications.jpg) no-repeat center center fixed;*/
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+
+body {
+  width: 1200px;
+  height: 770px;/*Check 1: if the width must be specified*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+  padding-top: 25px;
+}
+
+header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 6;
+  display: inline-flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.header {
+  display: inline;
+}
+
+
+header li {
+margin: 10px;
+font-size: 20px;
+color: white;
+transition: all .2s ease-in-out;
+}
+
+header li:hover {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  margin: -7px;
+  padding: 7px;
+  transform: scale(1.1);
+  font-size: 20px;
+  cursor:pointer;
+}
+
+/* Editing Divs */
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.paul {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.atd {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  border: 3px solid red;
+  margin-top: -200px;
+}
+
+.anc {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  border: 3px solid red;
+  margin-top: -200px;
+}
+
+.uae {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  border: 3px solid red;
+  margin-top: -200px;
+}
+
+.tki {
+  grid-column: 5 / 6;
+  grid-row: 4/ 5;
+  border: 3px solid red;
+  margin-top: -200px;
+}
