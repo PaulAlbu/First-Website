@@ -5,7 +5,7 @@
 body {
     background: url(Website-Background.png) no-repeat center center fixed;
     background-size: cover;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Lora', serif;
 }
 
 /* The actual timeline-timeline (the vertical ruler)  */
@@ -157,28 +157,27 @@ header {
   position: relative;
 }
 
-.header {
-  display: inline;
-}
-
-
 header li {
+display: inline-block;
 margin: 10px;
 font-size: 20px;
 color: white;
 transition: all .2s ease-in-out;
+padding: 7px;
+margin-bottom: -10px;
+margin-top: -10px;
+margin-left: -5px;
 }
 
 header li:hover {
+
   color: black;
   background-color: white;
-  font-weight: bold;
-  margin: -7px;
   padding: 7px;
-  transform: scale(1.1);
   font-size: 20px;
   cursor:pointer;
 }
+
 
 
 main {
@@ -264,4 +263,9 @@ main ul {
   grid-row: 3 / 4;
   grid-column: 1 / 4;
   border-bottom: 2px solid white;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
 }
